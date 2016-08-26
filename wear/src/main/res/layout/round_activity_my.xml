@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MyActivity"
+    tools:context=".WearActivity"
     tools:deviceIds="wear_square" android:padding="12dp">
 
     <TextView
@@ -24,5 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" android:text="Sensor Information" />
 
+    <Button
+        android:id="@+id/ss_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start/Stop Service"/>
 
 </LinearLayout>
